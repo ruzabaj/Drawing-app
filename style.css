@@ -1,3 +1,26 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
+
+body {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.toolbox {
+  display: flex;
+  justify-content: space-around;
+  width: calc(100% - 20px);
+}
+.toolbox__functionalities {
+  display: flex;
+  gap: 20px;
+}/*# sourceMappingURL=style.css.map */
