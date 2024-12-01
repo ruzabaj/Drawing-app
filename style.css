@@ -12,7 +12,13 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px;
+}
+
+.canvas {
   border: 1px solid black;
+}
+.canvas--space-bottom {
+  margin-bottom: 20px;
 }
 
 .toolbox {
